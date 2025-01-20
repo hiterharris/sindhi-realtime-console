@@ -505,8 +505,8 @@ export function ConsolePage() {
         <div className="content-logs">
           <div className="content-block conversation">
             <div className="content-block-title">Conversation</div>
+            {items.length > 0 && 
             <div className="content-block-body" data-conversation-content>
-              {!items.length && `awaiting connection...`}
               {items.map((conversationItem, i) => {
                 return (
                   <div className="conversation-item" key={conversationItem.id}>
@@ -566,6 +566,7 @@ export function ConsolePage() {
                 );
               })}
             </div>
+            }
           </div>
           <div className="content-actions">
             <div className="spacer" />
