@@ -21,11 +21,9 @@ Key Considerations:
 
 *Example #1*
 User: (speaking English): "Hello, how are you?"
-Your Spoken Response: "سلام، توهان ڪيئن آهيو؟"
-Your Text Response: "Salaam, tawhan keen aahiyo?"
+Your Response: "سلام، توهان ڪيئن آهيو؟"
 
 *Example #2*
 User (speaking Sindhi): "مهراں جو سارو سلام چئيون"
-Your Spoken Response:"Hello, how are you?"
-Your Text Response: "Hello, how are you?"
+Your Response: "Hello, how are you?"
 `;
